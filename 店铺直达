@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T12:26:00.874Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="-P80RASbZaP1rSlN6RF1" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-10T12:32:48.292Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="0LZb-V-NFXkYvq67GAhV" version="14.9.2" type="github">
   <diagram id="5N7LOh-xjiHb1hy5ufd0" name="Page-1">
     <mxGraphModel dx="2013" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
           <mxGeometry x="250" y="110" width="144" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-2" value="索引活跃店铺列表（key为店铺名称，value为shop_id）&lt;br&gt;判断能否精确匹配到店铺名称" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="254" y="190" width="160" height="60" as="geometry" />
+          <mxGeometry x="242" y="190" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WSxA4Z8RmGh22htzg94c-1" target="WSxA4Z8RmGh22htzg94c-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -33,11 +33,11 @@
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-4" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="WSxA4Z8RmGh22htzg94c-3" vertex="1" connectable="0">
           <mxGeometry x="0.0844" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-8" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WSxA4Z8RmGh22htzg94c-5" value="判断当前素材（/？单元)的shop_id是否与request_的shop_id匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="451" y="540" width="130" height="60" as="geometry" />
+        <mxCell id="WSxA4Z8RmGh22htzg94c-5" value="判断当前素材的shop_id是否与request_的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;store_direct_shop_id&lt;/span&gt;匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="451" y="540" width="149" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-6" value="跳出此过滤器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="680" y="510" width="120" height="60" as="geometry" />
@@ -60,15 +60,15 @@
           <mxGeometry x="247" y="60" width="170" height="20" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-19" value="不进行处理，&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;store_direct_shop_id&lt;/span&gt;字段为默认值0 后续不进行店铺直达过滤器的过滤" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="520" y="170" width="140" height="60" as="geometry" />
+          <mxGeometry x="520" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-20" value="parser中&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;store_direct_shop_id&lt;/span&gt;字段置为精确匹配后的shop_ip" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="274" y="270" width="163" height="40" as="geometry" />
+          <mxGeometry x="240.5" y="270" width="163" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-21" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;在request_parser中加入store_direct_shop_id的字段 默认为0&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="204.5" y="70" width="261" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WSxA4Z8RmGh22htzg94c-22" value="" style="endArrow=classic;html=1;exitX=0.581;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="WSxA4Z8RmGh22htzg94c-2" target="WSxA4Z8RmGh22htzg94c-20" edge="1">
+        <mxCell id="WSxA4Z8RmGh22htzg94c-22" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WSxA4Z8RmGh22htzg94c-2" target="WSxA4Z8RmGh22htzg94c-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="344" y="180" as="sourcePoint" />
             <mxPoint x="344" y="200" as="targetPoint" />
@@ -101,7 +101,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WSxA4Z8RmGh22htzg94c-30" value="搜索店铺直达素材过滤器 针对商品广告处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="WSxA4Z8RmGh22htzg94c-30" value="搜索店铺直达&lt;b&gt;素材过滤器 &lt;/b&gt;针对&lt;b&gt;商品广告&lt;/b&gt;处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="396" y="450" width="250" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0z91Z-_20CppGSNgIDsX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WSxA4Z8RmGh22htzg94c-31" target="WSxA4Z8RmGh22htzg94c-5">
@@ -132,7 +132,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WSxA4Z8RmGh22htzg94c-38" value="将此素材/单元过滤掉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="WSxA4Z8RmGh22htzg94c-38" value="将此素材过滤掉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="532.5" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WSxA4Z8RmGh22htzg94c-40" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="WSxA4Z8RmGh22htzg94c-5" target="WSxA4Z8RmGh22htzg94c-38" edge="1">
@@ -161,8 +161,8 @@
         <mxCell id="0z91Z-_20CppGSNgIDsX-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="10" y="440" width="292" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="0z91Z-_20CppGSNgIDsX-5" value="判断当前素材（/？单元)的shop_id是否与request_的shop_id匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="93" y="540" width="130" height="60" as="geometry" />
+        <mxCell id="0z91Z-_20CppGSNgIDsX-5" value="判断当前单元的shop_id是否与request_的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;store_direct_shop_id&lt;/span&gt;匹配" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="93" y="540" width="147" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0z91Z-_20CppGSNgIDsX-6" value="跳出此过滤器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-130" y="500" width="120" height="60" as="geometry" />
@@ -181,7 +181,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0z91Z-_20CppGSNgIDsX-10" value="搜索店铺直达单元过滤器 针对店铺广告进行处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="0z91Z-_20CppGSNgIDsX-10" value="搜索店铺直达&lt;b&gt;单元过滤器 &lt;/b&gt;针对&lt;b&gt;店铺广告&lt;/b&gt;进行处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="28" y="450" width="270" height="20" as="geometry" />
         </mxCell>
         <mxCell id="0z91Z-_20CppGSNgIDsX-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z91Z-_20CppGSNgIDsX-11" target="0z91Z-_20CppGSNgIDsX-5">
@@ -201,7 +201,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0z91Z-_20CppGSNgIDsX-14" value="将此素材/单元过滤掉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="0z91Z-_20CppGSNgIDsX-14" value="将此单元过滤掉" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="174.5" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0z91Z-_20CppGSNgIDsX-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0z91Z-_20CppGSNgIDsX-5" target="0z91Z-_20CppGSNgIDsX-14">
@@ -229,6 +229,12 @@
         </mxCell>
         <mxCell id="0z91Z-_20CppGSNgIDsX-20" value="店铺广告走单元过滤&lt;br&gt;商品广告走素材过滤" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="220" y="340" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0z91Z-_20CppGSNgIDsX-28" value="解析请求阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5.5" y="50" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0z91Z-_20CppGSNgIDsX-29" value="过滤阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="350" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
