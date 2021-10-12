@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T14:34:32.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="NBCi88joJoHCIQ3ulLNc" version="15.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T14:41:30.305Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="ZseCpOj2gnF1G6wzUmfQ" version="15.3.5" type="github">
   <diagram id="EKa7_gNf7zfb-kAgc2LX" name="Page-1">
     <mxGraphModel dx="1186" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5jckf4sXhnyCD4tCLGnr-1" value="后端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="120" y="240" width="250" height="80" as="geometry" />
+          <mxGeometry x="100" y="240" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="5jckf4sXhnyCD4tCLGnr-2" value="server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="560" y="240" width="150" height="80" as="geometry" />
@@ -16,8 +16,8 @@
         <mxCell id="5jckf4sXhnyCD4tCLGnr-4" value="前端" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="40" y="30" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5jckf4sXhnyCD4tCLGnr-6" value="存储" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="175" y="410" width="140" height="100" as="geometry" />
+        <mxCell id="5jckf4sXhnyCD4tCLGnr-6" value="mysql:tasklist表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="260" y="440" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5jckf4sXhnyCD4tCLGnr-7" value="" style="endArrow=classic;html=1;entryX=0.907;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.95;exitY=1.083;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5jckf4sXhnyCD4tCLGnr-4" target="5jckf4sXhnyCD4tCLGnr-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -70,8 +70,8 @@
         <mxCell id="mhgw-0x8I8vTwFVpFLUy-6" value="1.获取人群列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="135" y="120" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mhgw-0x8I8vTwFVpFLUy-7" value="获取计算结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="30" y="130" width="90" height="20" as="geometry" />
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-7" value="1.根据taskid&lt;br&gt;获取计算结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="30" y="125" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="mhgw-0x8I8vTwFVpFLUy-9" value="2.上传人群计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="410" y="240" width="100" height="20" as="geometry" />
@@ -79,26 +79,50 @@
         <mxCell id="mhgw-0x8I8vTwFVpFLUy-10" value="3.返回taskid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="420" y="260" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mhgw-0x8I8vTwFVpFLUy-11" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jckf4sXhnyCD4tCLGnr-1" target="5jckf4sXhnyCD4tCLGnr-6">
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-11" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.892;exitY=1.025;exitDx=0;exitDy=0;entryX=0.793;entryY=0.11;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="5jckf4sXhnyCD4tCLGnr-1" target="5jckf4sXhnyCD4tCLGnr-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="450" as="sourcePoint" />
             <mxPoint x="200" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="mhgw-0x8I8vTwFVpFLUy-12" value="4.存储tasklist表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="290" y="350" width="100" height="20" as="geometry" />
+          <mxGeometry x="310" y="340" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mhgw-0x8I8vTwFVpFLUy-13" value="5.返回taskid" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="280" y="170" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mhgw-0x8I8vTwFVpFLUy-15" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jckf4sXhnyCD4tCLGnr-6" target="5jckf4sXhnyCD4tCLGnr-1">
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-15" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.676;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5jckf4sXhnyCD4tCLGnr-6" target="5jckf4sXhnyCD4tCLGnr-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="310" as="sourcePoint" />
             <mxPoint x="400" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mhgw-0x8I8vTwFVpFLUy-16" value="2.查询tasklist返回任务列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
-          <mxGeometry x="90" y="340" width="160" height="20" as="geometry" />
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-16" value="2.查询tasklist&lt;br&gt;返回任务列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="235" y="380" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-18" value="0.定时任务更新计算结果" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-23" value="mysql:result表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="115" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-27" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.068;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mhgw-0x8I8vTwFVpFLUy-23" target="5jckf4sXhnyCD4tCLGnr-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="110" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-28" value="" style="endArrow=classic;html=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.3;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5jckf4sXhnyCD4tCLGnr-1" target="mhgw-0x8I8vTwFVpFLUy-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <mxPoint x="180" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-29" value="0.定时任务更新&lt;br&gt;结果到mysql" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="135" y="350" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mhgw-0x8I8vTwFVpFLUy-30" value="2.根据taskid&lt;br&gt;查找result" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="60" y="390" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
