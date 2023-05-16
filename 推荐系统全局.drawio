@@ -1,9 +1,156 @@
-<mxfile host="app.diagrams.net" modified="2023-05-16T07:47:46.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.3.2" etag="4v9hbPyhZe91s_dxpFCp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-16T13:47:33.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gWxu0sFgppH-o0IF5qHi" version="21.3.2" type="github">
   <diagram name="第 1 页" id="QQ5DUZMPdBMdV-NvrTkh">
-    <mxGraphModel>
+    <mxGraphModel dx="2165" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-20" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="450" y="60" width="530" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-1" target="IrhJn4OxgV6IGc6ftHIg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-1" value="GRF&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="-100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-2" target="IrhJn4OxgV6IGc6ftHIg-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-2" target="IrhJn4OxgV6IGc6ftHIg-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-2" value="GR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-4" value="出口流量限流、&lt;br&gt;容灾（词典、个性化）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-80" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-5" value="HS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="475" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-7" value="DUP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="325" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-8" value="UMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-9" value="预加载&lt;br&gt;数据预处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-10" value="FS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-11" value="请求fs和ums&lt;br&gt;读下发历史&lt;br&gt;merge下发历史" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="265" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-13" value="预充request feature&lt;br&gt;预充user feature&lt;br&gt;sampleLog落盘" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="820" y="160" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-14" value="预充dup去重服务（比较耗时），&lt;br&gt;会传入3种用户id、下发历史、logid&lt;br&gt;随后在grc再对dup进行请求去重" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="385" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-15" value="读取下发历史&lt;br&gt;redis+kv存储" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-16" value="GRC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-17" value="GRG？？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry y="205" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-22" value="merge下发历史" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-23" value="请求容灾" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-24" value="召回" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-25" value="正排填充" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-26" value="filter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-27" value="粗排rpc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-28" value="粗排融合调权截断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-29" value="保量" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-30" value="功能队列 为啥在这个位置？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="930" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-31" value="VFS去重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1000" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-32" value="静排融合截断" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-33" value="精排" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-34" value="下发历史可以用于后面去重，是否用于推荐？status如何与端交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="235" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-35" value="会召回6000条左右？&lt;br&gt;根据不同策略从不同的队列进行召回？&lt;br&gt;cb队列 session队列是什么？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="473" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-36" value="功能队列 效果队列 在哪个环节填充进来？ 最后的强插？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="488" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-37" value="召回队列？&amp;nbsp;&lt;br&gt;是服务？还是什么形式？召回方式是否有区分？" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-38" value="多样性？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="283" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-39" value="强插？" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-40" value="GCMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-41" value="获取正排数据，通过nid经过GCMS算子查询db组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="585" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-42" value="限流：不请求gr和容灾&lt;br&gt;降级：不请求gr，请求容灾" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-90" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-43" value="自调整框架之后又时间可以研究一下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="685" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-44" value="ROUTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-45" value="PREDICTOR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-46" value="通过用户的ebd和视频的ebd计算内积&lt;br&gt;视频的ebd已cache 后续可以研究一下具体实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="435" y="760" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-47" value="截断到1200" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="848" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-49" value="返回response" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="282" y="1380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-50" value="截断数？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1148" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-51" value="调用dup模型做去重" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1008" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-52" value="merge在哪个环节？pipeline截止到哪？&lt;br&gt;写下发历史在哪？" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="805" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IrhJn4OxgV6IGc6ftHIg-53" value="DUP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1008" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
