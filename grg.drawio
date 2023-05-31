@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-31T11:24:23.755Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="GFXYywx9Fs_rr3bk7B3w" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T13:43:42.474Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="lgWf6jyrW_NRMfNI5ZYi" version="21.3.3" type="github">
   <diagram name="第 1 页" id="3nudzDqvDU5Y6kP5WSou">
-    <mxGraphModel dx="2099" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2611" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,6 +283,45 @@
         </mxCell>
         <mxCell id="iS4poByR3l4oACe20Y_C-114" value="&lt;h6 style=&quot;text-align:left;padding-left:0px&quot; data-slate-node=&quot;element&quot; data-indent=&quot;0&quot; data-uuid=&quot;03f8ac60-ff62-11ed-a7ac-2781f6901052&quot; data-morpho-type=&quot;heading&quot; class=&quot;mp-heading&quot;&gt;vidsGcfEmbedding&lt;/h6&gt;&lt;span class=&quot;mp-morpho-clipboard-doc-data&quot; data-morpho-doc-data=&quot;{&amp;quot;token&amp;quot;:&amp;quot;eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwiYXBwSWQiOjEsInVpZCI6Im1Sc1lJc1RFRV8iLCJkb2NJZCI6ImtaaXI2NjV3U2tnYXNYIn0..Us6IozfQULRL9yUE.xd9hyb-gtzFJJULyUZZtzpriyQLI-9Trj80i5WCMB-qQszTviosxvgv4Lfk9RKY0oowREMGY1_demu0QvLN7wpQs7cOI7J-S_iSwg8E-Q4AUK6pT2he8zDJ26ZjVKXB8VQxgD236RNdOAwgPH84K7OrLOMBT85veP_HtT6XDq-FIGCstgrmj0R0DN0d2v0WIha0YEANGaK_dU_C636MJDQb19w.G2XBhUZalwUB6xCOD1K9wA&amp;quot;}&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1010" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-118" value="PredictNetInfer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-119" value="ContextData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-120" value="CommonNetInfer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-121" value="GetItemBaseEbd" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-122" value="ItemBaseFeature" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="1070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-123" value="UserData" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="125" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-124" value="抽取用户特征、产出用户ebd和user feature" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="995" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-125" value="产出item的feature" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="1090" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-126" value="根据Feature获取item的ebd" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-127" value="根据以上ebd做infer&lt;br&gt;最终拿到一个值用于contextdnn的模型计算" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-128" value="产出context_ebd_data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1175" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-129" value="根据ebd和槽位ebd算出最终的q值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1265" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iS4poByR3l4oACe20Y_C-133" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.sharpArrow2;dy1=0.67;dx1=18;dx2=18;dy3=0.15;dx3=27;notch=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
