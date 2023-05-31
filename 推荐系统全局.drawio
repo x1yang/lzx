@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T12:47:21.980Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="NYRtH-mhk4TNO_VACotj" version="21.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-31T11:24:58.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="u5q1hXy-AqDwWFx_fVRH" version="21.3.3" type="github">
   <diagram name="第 1 页" id="QQ5DUZMPdBMdV-NvrTkh">
     <mxGraphModel dx="2295" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,9 @@
         <mxCell id="vb6RrWnZcn55ZTF9AjC0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-31" target="IrhJn4OxgV6IGc6ftHIg-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vb6RrWnZcn55ZTF9AjC0-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-31" target="IrhJn4OxgV6IGc6ftHIg-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-31" value="VFS去重" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="360" y="820" width="120" height="60" as="geometry" />
         </mxCell>
@@ -123,6 +126,9 @@
         <mxCell id="vb6RrWnZcn55ZTF9AjC0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-33" target="IrhJn4OxgV6IGc6ftHIg-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vb6RrWnZcn55ZTF9AjC0-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-33" target="IrhJn4OxgV6IGc6ftHIg-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-33" value="精排" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="360" y="735" width="120" height="60" as="geometry" />
         </mxCell>
@@ -132,20 +138,20 @@
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-40" value="GCMS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="20" y="640" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IrhJn4OxgV6IGc6ftHIg-41" value="获取正排数据，通过nid经过GCMS算子查询db组件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="650" width="290" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-42" value="限流：不请求gr和容灾&lt;br&gt;降级：不请求gr，请求容灾" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="120" y="-90" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-43" value="自调整框架之后又时间可以研究一下" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-50" y="750" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="vb6RrWnZcn55ZTF9AjC0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IrhJn4OxgV6IGc6ftHIg-44" target="IrhJn4OxgV6IGc6ftHIg-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-44" value="ROUTER" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="700" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-45" value="PREDICTOR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="545" y="730" width="120" height="60" as="geometry" />
+          <mxGeometry x="720" y="735" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-46" value="通过用户的ebd和视频的ebd计算内积&lt;br&gt;视频的ebd已cache 后续可以研究一下具体实现" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-100" y="825" width="270" height="40" as="geometry" />
@@ -157,7 +163,7 @@
           <mxGeometry x="360" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IrhJn4OxgV6IGc6ftHIg-53" value="DUP" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="545" y="815" width="120" height="60" as="geometry" />
+          <mxGeometry x="570" y="820" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kAsav_l6BgtBwGgB8YG2-5" value="填充正排" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="-110" y="130" width="120" height="60" as="geometry" />
